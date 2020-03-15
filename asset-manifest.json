@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/test-cassa/static/css/main.d71b95a7.chunk.css",
+    "main.js": "/test-cassa/static/js/main.2b3165aa.chunk.js",
+    "main.js.map": "/test-cassa/static/js/main.2b3165aa.chunk.js.map",
+    "runtime-main.js": "/test-cassa/static/js/runtime-main.26435c0f.js",
+    "runtime-main.js.map": "/test-cassa/static/js/runtime-main.26435c0f.js.map",
+    "static/css/2.7c3fc33d.chunk.css": "/test-cassa/static/css/2.7c3fc33d.chunk.css",
+    "static/js/2.4080c80d.chunk.js": "/test-cassa/static/js/2.4080c80d.chunk.js",
+    "static/js/2.4080c80d.chunk.js.map": "/test-cassa/static/js/2.4080c80d.chunk.js.map",
+    "index.html": "/test-cassa/index.html",
+    "precache-manifest.8c9db986ec35bbdc32a132371da14ed5.js": "/test-cassa/precache-manifest.8c9db986ec35bbdc32a132371da14ed5.js",
+    "service-worker.js": "/test-cassa/service-worker.js",
+    "static/css/2.7c3fc33d.chunk.css.map": "/test-cassa/static/css/2.7c3fc33d.chunk.css.map",
+    "static/css/main.d71b95a7.chunk.css.map": "/test-cassa/static/css/main.d71b95a7.chunk.css.map",
+    "static/js/2.4080c80d.chunk.js.LICENSE.txt": "/test-cassa/static/js/2.4080c80d.chunk.js.LICENSE.txt",
+    "static/media/Shop.module.scss": "/test-cassa/static/media/bg.279172f8.jpg",
+    "static/media/doska@1X.png": "/test-cassa/static/media/doska@1X.f7197f16.png",
+    "static/media/product_apple@1X.png": "/test-cassa/static/media/product_apple@1X.8e712385.png",
+    "static/media/product_berries@1X.png": "/test-cassa/static/media/product_berries@1X.174f38d7.png",
+    "static/media/product_grapefruit@1X.png": "/test-cassa/static/media/product_grapefruit@1X.3e2cec6e.png",
+    "static/media/product_pineapple@1X.png": "/test-cassa/static/media/product_pineapple@1X.59ee810f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26435c0f.js",
+    "static/css/2.7c3fc33d.chunk.css",
+    "static/js/2.4080c80d.chunk.js",
+    "static/css/main.d71b95a7.chunk.css",
+    "static/js/main.2b3165aa.chunk.js"
+  ]
+}
