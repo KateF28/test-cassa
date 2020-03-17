@@ -73,7 +73,7 @@ export const ProductChoose = ({product}) => {
                     <div className={styles['productChoose__selectItems']}
                          style={{display: itemsAmount.showItems ? 'block' : 'none'}}
                          onMouseOver={onHover}>
-                        <SimpleBar autoHide={false} style={{maxHeight: 138}}
+                        <SimpleBar autoHide={false} style={{maxHeight: 187}}
                                    scrollbarMinSize={40}>
                             {productsNumberArr.map((number) => <div
                                 key={number}
@@ -81,10 +81,14 @@ export const ProductChoose = ({product}) => {
                                     selectItem(number);
                                     dropDown();
                                 }}
-                                className={itemsAmount.selectedItem === number ?
-                                    `${styles['productChoose__item']} ${styles.selected}` :
+                                className={
+                                    // itemsAmount.selectedItem === number ?
+                                    // `${styles['productChoose__item']} ${styles.selected}` :
                                     styles['productChoose__item']}
-                            >{number}</div>)}
+                            >{itemsAmount.selectedItem === number ?
+                                <span className={`${styles['productChoose__itemChoose']} ${styles.selected}`}>{number}</span> :
+                                <span className={styles['productChoose__itemChoose']}>{number}</span>}
+                                </div>)}
                         </SimpleBar>
                     </div>
                 </div>

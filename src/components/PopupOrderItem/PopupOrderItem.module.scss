@@ -1,10 +1,43 @@
+@font-face {
+  font-family: '﻿Gilroy-ExtraBold';
+  src: local('﻿Gilroy-ExtraBold'), url(../../assets/fonts/Gilroy-ExtraBold.woff) format('woff');
+}
+
 .item {
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  padding-top: 34px;
+  font-size: 24px;
+
+  &__imgBlock {
+    flex: 0 0 65px;
+  }
 
   &__img {
-    width: 60px;
+    width: 100%;
   }
-  &__body {}
-  &__text {}
-  &__info {}
-  &__amount {}
+
+  &__body {
+    padding-left: 30px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 13px;
+
+    & span {
+      display: block;
+    }
+  }
+
+  &__info {
+    margin-bottom: 10px;
+  }
+
+  &__amount {
+    font-family: '﻿﻿Gilroy-ExtraBold', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 23px;
+  }
 }

@@ -29,18 +29,22 @@ export let PopupOrder = () => {
     return (
         <Fragment>
             {visible ? <div className={styles.popupOrder} id='popupOrder' onClick={closePopup}/> : null}
-            <CSSTransition in={visible} classNames={'popup'} timeout={{enter: 150}} mountOnEnter unmountOnExit>
-                    <div className={`popup ${styles['popupOrder__info']}`}>
-                        <div className={styles['popupOrder__closeArea']} onClick={hide}>Carello</div>
-                        <div className={styles['popupOrder__body']}>
-                            {loading ? <p>Loading...</p> : cartItems.map(item => (//
-                                <PopupOrderItem key={item.id} item={item}/>
-                            ))}
-                            <p className={styles['popupOrder__text']}>Subtotale</p>
-                            <p className={styles['popupOrder__total']}>{`\u20AC${countTotalAmount(cartItems)}`}</p>
-                        </div>
+            <CSSTransition in={visible} classNames={'popup'} timeout={{enter: 200}} mountOnEnter unmountOnExit>
+                <div className={`popup ${styles['popupOrder__info']}`}>
+
+                    <div className={styles['popupOrder__closeArea']} onClick={hide}>Carello</div>
+
+                    <div className={styles['popupOrder__body']}>
+                        {loading ? <p>Loading...</p> : cartItems.map(item => (//
+                            <PopupOrderItem key={item.id} item={item}/>
+                        ))}
+                        <p className={styles['popupOrder__text']}>Subtotale</p>
+                        <p className={styles['popupOrder__total']}>{`\u20AC${countTotalAmount(cartItems)}`}</p>
+                    </div>
+                    <div className={styles['flex']}>
                         <Link className={styles['popupOrder__link']} to='/cart'>Visualizza carrello</Link>
                     </div>
+                </div>
             </CSSTransition>
         </Fragment>
     )
