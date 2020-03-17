@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "233ccf415095626f0bb9e9ebf81c251e",
+    "revision": "c2f3500f858dbd38fc43483cb323259b",
     "url": "/test-cassa/index.html"
   },
   {
-    "revision": "feff1d85f9f0a0c81e8e",
+    "revision": "496003615271ee2e4be9",
     "url": "/test-cassa/static/css/2.7c3fc33d.chunk.css"
   },
   {
-    "revision": "3f64fb8aa3d5eadf853b",
-    "url": "/test-cassa/static/css/main.d71b95a7.chunk.css"
+    "revision": "b0dd638410825e19dec1",
+    "url": "/test-cassa/static/css/main.afc32d05.chunk.css"
   },
   {
-    "revision": "feff1d85f9f0a0c81e8e",
-    "url": "/test-cassa/static/js/2.4080c80d.chunk.js"
+    "revision": "496003615271ee2e4be9",
+    "url": "/test-cassa/static/js/2.1c9a6983.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/test-cassa/static/js/2.4080c80d.chunk.js.LICENSE.txt"
+    "url": "/test-cassa/static/js/2.1c9a6983.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f64fb8aa3d5eadf853b",
-    "url": "/test-cassa/static/js/main.2b3165aa.chunk.js"
+    "revision": "b0dd638410825e19dec1",
+    "url": "/test-cassa/static/js/main.4d595fbb.chunk.js"
   },
   {
     "revision": "a9bb50034fe36f7e498a",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5a7ca73906f802910ffe31d7aed732df",
     "url": "/test-cassa/static/media/Evogria.5a7ca739.woff"
+  },
+  {
+    "revision": "ab61ef1681c4e6390f2f17ed9b9464a1",
+    "url": "/test-cassa/static/media/Gilroy-ExtraBold.ab61ef16.woff"
+  },
+  {
+    "revision": "2e0731e90a13d863a23ad573c8ac4e9a",
+    "url": "/test-cassa/static/media/Gilroy-Light.2e0731e9.woff"
   },
   {
     "revision": "279172f86f81262c5373d610fad85d40",
