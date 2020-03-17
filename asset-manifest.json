@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-cassa/static/css/main.afc32d05.chunk.css",
+    "main.css": "/test-cassa/static/css/main.619173b4.chunk.css",
     "main.js": "/test-cassa/static/js/main.4d595fbb.chunk.js",
     "main.js.map": "/test-cassa/static/js/main.4d595fbb.chunk.js.map",
     "runtime-main.js": "/test-cassa/static/js/runtime-main.26435c0f.js",
@@ -9,10 +9,10 @@
     "static/js/2.1c9a6983.chunk.js": "/test-cassa/static/js/2.1c9a6983.chunk.js",
     "static/js/2.1c9a6983.chunk.js.map": "/test-cassa/static/js/2.1c9a6983.chunk.js.map",
     "index.html": "/test-cassa/index.html",
-    "precache-manifest.ee842b9f2f6aa076530a2a42eec0cf8b.js": "/test-cassa/precache-manifest.ee842b9f2f6aa076530a2a42eec0cf8b.js",
+    "precache-manifest.34e79796a2385ab43a607277c79f1ef0.js": "/test-cassa/precache-manifest.34e79796a2385ab43a607277c79f1ef0.js",
     "service-worker.js": "/test-cassa/service-worker.js",
     "static/css/2.7c3fc33d.chunk.css.map": "/test-cassa/static/css/2.7c3fc33d.chunk.css.map",
-    "static/css/main.afc32d05.chunk.css.map": "/test-cassa/static/css/main.afc32d05.chunk.css.map",
+    "static/css/main.619173b4.chunk.css.map": "/test-cassa/static/css/main.619173b4.chunk.css.map",
     "static/js/2.1c9a6983.chunk.js.LICENSE.txt": "/test-cassa/static/js/2.1c9a6983.chunk.js.LICENSE.txt",
     "static/media/Shop.module.scss": "/test-cassa/static/media/bg.279172f8.jpg",
     "static/media/PopupOrderItem.module.scss": "/test-cassa/static/media/Gilroy-ExtraBold.ab61ef16.woff",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.26435c0f.js",
     "static/css/2.7c3fc33d.chunk.css",
     "static/js/2.1c9a6983.chunk.js",
-    "static/css/main.afc32d05.chunk.css",
+    "static/css/main.619173b4.chunk.css",
     "static/js/main.4d595fbb.chunk.js"
   ]
 }
